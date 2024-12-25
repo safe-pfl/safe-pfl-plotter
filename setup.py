@@ -11,7 +11,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "matplotlib==3.6.3",
-        "matplotlib-inline==0.1.7",
         "numpy>=2.0",
         "distinctipy>=1.3",
     ],
