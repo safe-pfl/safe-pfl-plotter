@@ -13,7 +13,7 @@ import sys
 # Add the root directory of the project to the Python path
 sys.path.insert(0, os.path.abspath("../"))
 
-project = "safe-pfl-distance"
+project = "safe-pfl-plotter"
 copyright = "2024, MohammadMojtaba Roshani"
 author = "MohammadMojtaba Roshani"
 
@@ -30,7 +30,7 @@ exclude_patterns = [
     "Thumbs.db",
 ]
 
-autodoc_mock_imports = ["torch", "scipy", "numpy"]
+autodoc_mock_imports = ["distinctipy", "re", "matplotlib", "numpy"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

@@ -1,9 +1,9 @@
-.. safe-pfl-distance documentation master file, created by
+.. safe-pfl-plotter documentation master file, created by
    sphinx-quickstart on Sat Dec 21 00:30:53 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the safe-pfl-distance Documentation
+Welcome to the safe-pfl-plotter Documentation
 ============================
 
 .. toctree::
