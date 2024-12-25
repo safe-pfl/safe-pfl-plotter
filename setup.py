@@ -10,13 +10,10 @@ setup(
     license="Apache Software License",
     packages=find_packages(),
     install_requires=[
-        "torch>=2.5",
         "matplotlib==3.6.3",
         "matplotlib-inline==0.1.7",
-        "matplotlib2tikz==0.7.6",
-        "scipy>=1.14",
-        "scikit-learn>=1.5",
         "numpy>=2.0",
+        "distinctipy>=1.3",
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
