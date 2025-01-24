@@ -153,6 +153,8 @@ class LogsPlotter:
 
             # Plot the mean test accuracy as a black line
             if self.all_test_accuracy_mean:
+                if r == max_rounds - 1:
+                    print(f"Mean Test Accuracy: {mean_accuracies}")
                 plt.plot(
                     rounds,
                     mean_accuracies,

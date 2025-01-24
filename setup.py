@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="safe-pfl-plotter",
-    version="0.1.1",
+    version="0.1.2",
     description="safe-pfl plotter",
     url="https://github.com/safe-pfl/plotters",
     author="MohammadMojtaba Roshani",
